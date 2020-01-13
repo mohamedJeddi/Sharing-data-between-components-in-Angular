@@ -1,0 +1,6 @@
+<div *ngFor="let n of notifications">
+  {{ n.message }}
+</div>
+
+<input [(ngModel)]="username" type="text" placeholder="username" />
+<button (click)="sendName()"> Send Name </button>
